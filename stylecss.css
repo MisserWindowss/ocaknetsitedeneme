@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #444;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+aside {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    margin-right: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+aside img {
+    width: 100%;
+}
+
+#gunun-metni {
+    width: 60%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
