@@ -6,50 +6,56 @@ body {
     text-align: center;
 }
 
-header {
+.banner {
     background-color: #222;
     color: white;
     padding: 20px;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-nav {
-    margin: 20px 0;
+.menu {
+    margin: 10px 0;
 }
 
-nav button {
+.menu button {
     background-color: black;
     color: white;
     padding: 10px 15px;
     border: none;
     margin: 5px;
     cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-nav button:hover {
+.menu button:hover {
     background-color: #444;
 }
 
-main {
+.container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
 }
 
-aside {
+.sidebar {
     width: 250px;
     background: white;
     padding: 15px;
     margin-right: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
 }
 
-aside img {
+.sidebar img {
     width: 100%;
+    margin-bottom: 10px;
 }
 
-#gunun-metni {
+.content {
     width: 60%;
     background: white;
     padding: 20px;
@@ -57,9 +63,26 @@ aside img {
     text-align: left;
 }
 
+.content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 footer {
-    background: #222;
-    color: white;
-    padding: 10px;
+    text-align: center;
     margin-top: 20px;
+}
+
+.motion-button {
+    background: #d3d3d3;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.motion-button:hover {
+    background: #aaa;
 }
